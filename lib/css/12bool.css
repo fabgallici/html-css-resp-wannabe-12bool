@@ -1,15 +1,15 @@
-/* 12bool framework version 0.1
-release date: 25/09/2019
+/* 12bool framework
+release date: 26/09/2019
 */
 
-/* regole generiche */
+/* Regole generiche */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* container di riga */
+/* Container di riga */
 .container{
   max-width: 1170px;
   margin: 0 auto;

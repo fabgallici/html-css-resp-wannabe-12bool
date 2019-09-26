@@ -66,6 +66,11 @@ img{
   clear:both;
 }
 
+@media screen and (min-width:992px) {
+  #why .row > [class*="col-"]{
+    margin-top: 80px;
+  }
+}
 
 @media screen and (min-width:768px) and (max-width:991px){
 
@@ -90,7 +95,7 @@ img{
     width: 100%;
     margin-top: 0px;
   }
-  .container .row > [class*="col-"]{
+  .row > [class*="col-"]{
     padding: 10px 15px;
   }
   .container {
