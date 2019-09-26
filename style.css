@@ -65,3 +65,43 @@ img{
 .clear {
   clear:both;
 }
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+  .row {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .container .row > [class*="col-"]{
+    padding: 20px;
+  }
+  #why .row img {
+    padding: 20px;
+  }
+  img{
+    height: 150px;
+  }
+}
+
+@media screen and (max-width:767px){
+
+  .row {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .container .row > [class*="col-"]{
+    padding: 10px 15px;
+  }
+  .container {
+    border-bottom: 2px solid green;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+  #why .row img {
+    padding: 15px;
+  }
+  img{
+    height: 100px;
+  }
+}
